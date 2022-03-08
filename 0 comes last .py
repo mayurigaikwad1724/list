@@ -1,0 +1,12 @@
+a=[0,3,0,4,3,2]                                   
+b=[]
+c=[]
+i=0
+while(i<len(a)):
+    if(a[i]>0):
+        b.append(a[i])
+    if(a[i]==0):
+        c.append(a[i])
+    i=i+1
+b.extend(c)   
+print(b)        

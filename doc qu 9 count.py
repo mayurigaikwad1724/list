@@ -1,0 +1,12 @@
+a=[2,-7,5,-64,-14] 
+pos=0
+neg=0
+i=0
+while(i<len(a)):
+    if(a[i]>0):
+        pos=pos+1
+    if(a[i]<0):
+        neg=neg+1
+    i=i+1
+print("pos:-",pos)
+print("Neg:-",neg) 
